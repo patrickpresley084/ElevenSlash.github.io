@@ -58,14 +58,14 @@
       <div class="page-loader">
         <div class="loader">Loading...</div>
       </div>
-      <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">ElevenSlash</a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Browse</a>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Home</a>
                 <ul class="dropdown-menu">
                   <!--li><a href="index_mp_fullscreen_video_background.html">Default</a></li-->
                   <!--li><a href="index_op_fullscreen_gradient_overlay.html">One Page</a></li-->
@@ -109,8 +109,8 @@
                     </ul>
                   </li>
                 </ul>
-              </li-->
-              <!--li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Pages</a>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Pages</a>
                 <ul class="dropdown-menu">
                   <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">About</a>
                     <ul class="dropdown-menu">
@@ -159,8 +159,8 @@
                   <li><a href="faq.html">FAQ</a></li>
                   <li><a href="404.html">Page 404</a></li>
                 </ul>
-              </li-->
-              <!-- li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Portfolio</a>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Portfolio</a>
                 <ul class="dropdown-menu" role="menu">
                   <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Boxed</a>
                     <ul class="dropdown-menu">
@@ -237,8 +237,8 @@
                     </ul>
                   </li>
                 </ul>
-              </li-->
-              <!--li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Blog</a>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Blog</a>
                 <ul class="dropdown-menu" role="menu">
                   <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Standard</a>
                     <ul class="dropdown-menu">
@@ -267,8 +267,8 @@
                     </ul>
                   </li>
                 </ul>
-              </li-->
-              <!--li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Features</a>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Features</a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="alerts-and-wells.html"><i class="fa fa-bolt"></i> Alerts and Wells</a></li>
                   <li><a href="buttons.html"><i class="fa fa-link fa-sm"></i> Buttons</a></li>
@@ -339,7 +339,7 @@
               <!--                    |-->
               <!--                    button.search-btn(type='submit')-->
               <!--                        i.fa.fa-search-->
-              <!-- li class="dropdown"><a class="dropdown-toggle" href="documentation.html" data-toggle="dropdown">Documentation</a>
+              <!--li class="dropdown"><a class="dropdown-toggle" href="documentation.html" data-toggle="dropdown">Documentation</a>
                 <ul class="dropdown-menu">
                   <li><a href="documentation.html#contact">Contact Form</a></li>
                   <li><a href="documentation.html#reservation">Reservation Form</a></li>
@@ -348,42 +348,61 @@
                   <li><a href="documentation.html#plugin">Plugins</a></li>
                   <li><a href="documentation.html#changelog">Changelog</a></li>
                 </ul>
-              </li -->
+              </li-->
             </ul>
           </div>
         </div>
       </nav>
-      <section class="home-section home-fade home-full-height" id="home">
-        <div class="hero-slider">
-          <ul class="slides">
-            <li class="bg-dark-30 bg-dark shop-page-header" style="background-image:url(&quot;assets/images/shop/slider1.jpg&quot;);">
-              <div class="titan-caption">
-                <div class="caption-content">
-                  <div class="font-alt mb-30 titan-title-size-1">This is ElevenSlash</div>
-                  <div class="font-alt mb-30 titan-title-size-4"> Summer 2021</div>
-                  <div class="font-alt mb-40 titan-title-size-1">Your online fashion destination</div><a class="section-scroll btn btn-border-w btn-round" href="#latest">Learn More</a>
-                </div>
-              </div>
-            </li>
-            <li class="bg-dark-30 bg-dark shop-page-header" style="background-image:url(&quot;assets/images/shop/slider2.jpg&quot;);">
-              <div class="titan-caption">
-                <div class="caption-content">
-                  <div class="font-alt mb-30 titan-title-size-1"> This is ElevenSlash</div>
-                  <div class="font-alt mb-40 titan-title-size-4">Exclusive products</div><a class="section-scroll btn btn-border-w btn-round" href="#latest">Learn More</a>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
       <div class="main">
-        <section class="module-small">
+        <section class="module bg-dark-60 shop-page-header" data-background="assets/images/shop/product-page-bg.jpg">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Latest in clothing</h2>
+                <h2 class="module-title font-alt">Shop Products</h2>
+                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
               </div>
             </div>
+          </div>
+        </section>
+        <section class="module-small">
+          <div class="container">
+            <form class="row">
+              <div class="col-sm-4 mb-sm-20">
+                <select class="form-control">
+                  <option selected="selected">Default Sorting</option>
+                  <option>Popular</option>
+                  <option>Latest</option>
+                  <option>Average Price</option>
+                  <option>High Price</option>
+                  <option>Low Price</option>
+                </select>
+              </div>
+              <div class="col-sm-2 mb-sm-20">
+                <select class="form-control">
+                  <option selected="selected">Woman</option>
+                  <option>Man</option>
+                </select>
+              </div>
+              <div class="col-sm-3 mb-sm-20">
+                <select class="form-control">
+                  <option selected="selected">All</option>
+                  <option>Coats</option>
+                  <option>Jackets</option>
+                  <option>Dresses</option>
+                  <option>Jumpsuits</option>
+                  <option>Tops</option>
+                  <option>Trousers</option>
+                </select>
+              </div>
+              <div class="col-sm-3">
+                <button class="btn btn-block btn-round btn-g" type="submit">Apply</button>
+              </div>
+            </form>
+          </div>
+        </section>
+        <hr class="divider-w">
+        <section class="module-small">
+          <div class="container">
             <div class="row multi-columns-row">
               <div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="shop-item">
@@ -450,221 +469,25 @@
                 </div>
               </div>
             </div>
-            <div class="row mt-30">
-              <div class="col-sm-12 align-center"><a class="btn btn-b btn-round" href="#">See all products</a></div>
-            </div>
-          </div>
-        </section>
-        <section class="module module-video bg-dark-30" data-background="">
-          <div class="container">
             <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt mb-0">Be inspired. Get ahead of trends.</h2>
-              </div>
-            </div>
-          </div>
-          <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=EMy5krGcoOU', containment:'.module-video', startAt:0, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
-        </section>
-        <section class="module">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Exclusive products</h2>
-                <div class="module-subtitle font-serif">The languages only differ in their grammar, their pronunciation and their most common words.</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="owl-carousel text-center" data-items="5" data-pagination="false" data-navigation="false">
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-1.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£12.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-2.jpg" alt="Derby shoes"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Derby shoes</a></h4>£54.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-3.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£19.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-4.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£14.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-5.jpg" alt="Chelsea boots"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Chelsea boots</a></h4>£44.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-6.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£19.00
-                    </div>
-                  </div>
-                </div>
+              <div class="col-sm-12">
+                <div class="pagination font-alt"><a href="#"><i class="fa fa-angle-left"></i></a><a class="active" href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#"><i class="fa fa-angle-right"></i></a></div>
               </div>
             </div>
           </div>
         </section>
-        <hr class="divider-w">
-        <!--section class="module" id="news">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Our News</h2>
-              </div>
-            </div>
-            <div class="row multi-columns-row post-columns wo-border">
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-40">
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Receipt of the new collection</a></h2>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-40">
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Sale of summer season</a></h2>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-40">
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">New lookbook</a></h2>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-40">
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Receipt of the new collection</a></h2>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-40">
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Sale of summer season</a></h2>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-40">
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">New lookbook</a></h2>
-                  </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section-->
-        <!--hr class="divider-w">
-        <section class="module-small">
-          <div class="container">
-            <div class="row client">
-              <div class="owl-carousel text-center" data-items="6" data-pagination="false" data-navigation="false">
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-1.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-2.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-3.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-4.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-5.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-1.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-2.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-3.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-4.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section-->
         <div class="module-small bg-dark">
           <div class="container">
             <div class="row">
               <div class="col-sm-3">
                 <div class="widget">
-                  <h5 class="widget-title font-alt">About ElevenSlash</h5>
-                  <p>From humble beginnings, ElevenSlash started in the fall of 2019 with just an Instagram with one mission: To Carter most Unique footwear and apparel. ElevenSlash provides the best selection of premium products for a wide variety of our beloved customers.</p>
-                  <p>Whatsapp: +1 234 567 89 10
+                  <h5 class="widget-title font-alt">About Titan</h5>
+                  <p>The languages only differ in their grammar, their pronunciation and their most common words.</p>
+                  <p>Phone: +1 234 567 89 10</p>Fax: +1 234 567 89 10
                   <p>Email:<a href="#">somecompany@example.com</a></p>
                 </div>
               </div>
-              <!--div class="col-sm-3">
+              <div class="col-sm-3">
                 <div class="widget">
                   <h5 class="widget-title font-alt">Recent Comments</h5>
                   <ul class="icon-list">
@@ -675,8 +498,8 @@
                     <li>Mark on <a href="#">Our trip to the Alps</a></li>
                   </ul>
                 </div>
-              </div -->
-              <!-- div class="col-sm-3">
+              </div>
+              <div class="col-sm-3">
                 <div class="widget">
                   <h5 class="widget-title font-alt">Blog Categories</h5>
                   <ul class="icon-list">
@@ -687,8 +510,8 @@
                     <li><a href="#">Wordpress - 16</a></li>
                   </ul>
                 </div>
-              </div -->
-              <!--div class="col-sm-3">
+              </div>
+              <div class="col-sm-3">
                 <div class="widget">
                   <h5 class="widget-title font-alt">Popular Posts</h5>
                   <ul class="widget-posts">
@@ -711,13 +534,13 @@
               </div>
             </div>
           </div>
-        </div -->
+        </div>
         <hr class="divider-d">
         <footer class="footer bg-dark">
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
-                <p class="copyright font-alt">&copy; 2017&nbsp;<a href="index.html">ElevenSlash</a>, All Rights Reserved</p>
+                <p class="copyright font-alt">&copy; 2017&nbsp;<a href="index.html">TitaN</a>, All Rights Reserved</p>
               </div>
               <div class="col-sm-6">
                 <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
